@@ -1,0 +1,88 @@
+body{
+  background-color:SeaGreen;
+  margin:0;
+  padding:0;
+}
+h1{
+	font-size:50px;
+	font-family:sans-serif;
+	text-align:center;
+	color:SeaShell;
+	margin:20px auto auto auto;
+}
+.box{
+	width:500px;
+	height:400px;
+    margin:30px auto auto auto;
+    background-color:SeaGreen;
+    position:relative;
+}
+
+.timer{
+	width:290px;
+	height:150px;
+	margin:125px auto auto auto;
+	position:absolute;
+	left:10px;
+	right:200px;
+	top:0px;
+	bottom:125px;
+	background-color:SeaGreen;
+	color:SeaShell;
+	display:inline;
+	padding:5px;
+}
+
+.reset{
+	display:inline;
+	width:150px;
+	height:150px;
+	margin:125px auto auto auto;
+	position:absolute;
+	left:325px;
+	right:25px;
+	top:0px;
+	bottom:125px;
+	background-color:SeaGreen;
+	padding:5px;
+	color:SeaShell;
+}
+
+span{
+	display:block;
+	font-size:30px;
+	color:SeaShell;
+	font-family:sans-serif;
+	text-align:center;
+	cursor:pointer;
+
+}
+
+.time{
+	font-size:100px;
+	font-family:sans-serif;
+	text-align:center;
+	color:SeaShell;
+	padding: 25px auto;
+}
+
+.buttons{
+	width:700px;
+	height:65px;
+	background-color:SeaGreen;
+	margin:0px auto auto auto;
+}
+
+.button{
+	width:200px;
+	height:60px;
+	margin:2.5px 0px 2.5px 25px;
+	background-color:SeaGreen;
+	border:2px solid SeaShell;
+	border-radius:5px;
+	color:SeaShell;
+	text-align:center;
+	font-size:30px;
+	font-family:sans-serif;
+	padding-top: 4px;
+}
